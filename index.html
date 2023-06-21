@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>La Marlesca</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <header>
+
+        <a href="./index.html" class="header-logo">Home/logo</a>
+
+        <nav class="header-nav">
+            <a class="header-nav__items--servicies" href="./pages/shop.html">Tienda</a>
+            <a class="header-nav__items--servicies" href="./pages/classes.html">Cursos</a>
+            <a class="header-nav__items--user" href="">Iniciar Sesion</a>
+            <a class="header-nav__items--user" href="">Registrarse</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="main-frontpage">
+            <img class="main-frontpage--images" src="./images/Screenshot_1.png" alt="Frontpage_1">
+            <form class="main-form">
+
+                <div class="main-form__options">
+                    <span>¿A que hora venis?</span>
+                    <label for="mañana"><input type="radio" id="mañana" name="horario" value="mañana">Mañana</label>
+                    <label for="tarde"><input type="radio" id="tarde" name="horario" value="tarde">Tarde</label>
+                </div>
+
+                <div class="main-form__options">
+                    <span>¿Que te gustaria hacerte?</span>
+                    <label for="corte"><input type="checkbox" id="corte" name="opciones" value="corte">Corte</label>
+                    <label for="coloreado"><input type="checkbox" id="coloreado" name="opciones" value="coloreado">Coloreado</label>
+                    <label for="manicura"><input type="checkbox" id="manicura" name="opciones" value="manicura">Manicura</label>
+                </div>
+                <div class="main-form__options"></div>
+                <textarea class="main-form__comentary" placeholder="Comentario (Opcional)" cols="30" rows="10"></textarea>
+                <br>
+                <button class="main-form__button" type="submit">Enviar</button>
+                </div>
+        </div>
+
+        </form>
+
+        <div class="main-galery">
+            <h1 class="main-galery__title">Galeria</h1>
+            <button class="main-galery__button">filtrar</button>
+            <div class="main-galery__images">
+                <img class="main-galery__images--img" src="./images/Screenshot_2.png" alt="Galery_1">
+                <img class="main-galery__images--img" src="./images/Screenshot_3.png" alt="Galery_2">
+                <img class="main-galery__images--img" src="./images/Screenshot_4.png" alt="Galery_3">
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <Div class="footer-links__social">
+            <h4 class="footer-links__social--title">Redes sociales</h4>
+            <ul  class="footer-links__social--items">
+                <li class="footer-links__social--links"><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li class="footer-links__social--links"><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <li class="footer-links__social--links"><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                <li class="footer-links__social--links"><a href="https://www.tiktok.com/" target="_blank">Tik Tok</a></li>
+            </ul>
+        </Div>
+
+        <Div class="footer-links__support">
+            <h4 class="footer-links__support--title">Contacto y Soporte</h4>
+            <ul class="footer-links__support--items">
+                <li class="footer-links__support--links"><a href="./pages/contact.html">Contacto</a></li>
+                <li class="footer-links__support--links"><a href="">Sobre nosotros</a></li>
+                <li class="footer-links__support--links"><a href="./pages/FAQ.html">Preguntas frecuentes</a></li>
+                <li class="footer-links__support--links"><a href="">Soporte</a></li>
+            </ul>
+        </Div>
+
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
