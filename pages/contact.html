@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
     
-    <title>Contacto</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/styles.css">
-
-</head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Contacto</title>
+        
+    
+        <link rel="stylesheet" href="./sass/styles.css">
+        <script src="https://kit.fontawesome.com/b593271639.js" crossorigin="anonymous"></script>
+    
+    </head>
 <body>
 
     <header>
 
-        <a href="../index.html" class="header-logo">Home/logo</a>
-
         <nav class="header-nav">
-            <a class="header-nav__items--servicies" href="./shop.html">Tienda</a>
-            <a class="header-nav__items--servicies" href="./classes.html">Cursos</a>
-            <a class="header-nav__items--user" href="">Iniciar Sesion</a>
-            <a class="header-nav__items--user" href="">Registrarse</a>
+
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbox">
+                <i class="fa-solid fa-bars"></i>
+            </label> 
+    
+            <a href="../index.html" class="header-logo">
+                <img src="../images/logo.png" alt="">
+            </a>
+                <ul>
+                <li><a class="header-nav__items--servicies" href="../pages/shop.html">Tienda</a></li>
+                <li><a class="header-nav__items--servicies" href="../pages/classes.html">Cursos</a></li>
+                <li><a class="header-nav__items--user" href="">Iniciar Sesion</a></li>
+                <li><a class="header-nav__items--user" href="">Registrarse</a></li>
+                </ul>
+                
         </nav>
 
     </header>
